@@ -17,10 +17,21 @@ public class Main {
 //        System.out.println(reverseInteger.reverseInteger(-123));
 //        System.out.println(reverseInteger.reverseInteger(120));
 
-        FindDivisor findDivisor = new FindDivisor();
-        System.out.println(findDivisor.numberOfDivisors(4));
-        System.out.println(findDivisor.numberOfDivisors(30));
-        System.out.println(findDivisor.numberOfDivisors(12));
+//        FindDivisor findDivisor = new FindDivisor();
+//        System.out.println(findDivisor.numberOfDivisors(4));
+//        System.out.println(findDivisor.numberOfDivisors(30));
+//        System.out.println(findDivisor.numberOfDivisors(12));
 
+        String[] a1 = {"hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"};
+        String []a2 = {"cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"};
+
+        MaxDiffLength maxDiffLength = new MaxDiffLength();
+
+//        System.out.println(a1.length);
+//        System.out.println(a2.length);
+
+        System.out.println(a1[0].length());
+
+        System.out.println(maxDiffLength.mxdiflg(a1, a2));
     }
 }
