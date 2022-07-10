@@ -1,3 +1,5 @@
+
+//7 kyu
 public class Main {
     public static void main(String[] args) {
 //        FizzBuzz fizzBuzz = new FizzBuzz();
@@ -14,6 +16,11 @@ public class Main {
 //        System.out.println(reverseInteger.reverseInteger(123));
 //        System.out.println(reverseInteger.reverseInteger(-123));
 //        System.out.println(reverseInteger.reverseInteger(120));
+
+        FindDivisor findDivisor = new FindDivisor();
+        System.out.println(findDivisor.numberOfDivisors(4));
+        System.out.println(findDivisor.numberOfDivisors(30));
+        System.out.println(findDivisor.numberOfDivisors(12));
 
     }
 }
