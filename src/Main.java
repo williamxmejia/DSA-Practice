@@ -22,16 +22,21 @@ public class Main {
 //        System.out.println(findDivisor.numberOfDivisors(30));
 //        System.out.println(findDivisor.numberOfDivisors(12));
 
-        String[] a1 = {"hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"};
-        String []a2 = {"cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"};
+//        String[] a1 = {"hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"};
+//        String []a2 = {"cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"};
+//
+//        MaxDiffLength maxDiffLength = new MaxDiffLength();
+//
+////        System.out.println(a1.length);
+////        System.out.println(a2.length);
+//
+//        System.out.println(a1[0].length());
+//
+//        System.out.println(maxDiffLength.mxdiflg(a1, a2));
 
-        MaxDiffLength maxDiffLength = new MaxDiffLength();
+        Kata kata = new Kata();
+        int [] arr = {1,2,3,4,3,2,1};
 
-//        System.out.println(a1.length);
-//        System.out.println(a2.length);
-
-        System.out.println(a1[0].length());
-
-        System.out.println(maxDiffLength.mxdiflg(a1, a2));
+        System.out.println(kata.findEvenIndex(arr));
     }
 }
