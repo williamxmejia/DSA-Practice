@@ -39,11 +39,21 @@ public class Main {
 //
 //        System.out.println(kata.findEvenIndex(arr));
 
-        GoodVsEvil goodVsEvil = new GoodVsEvil();
+//        GoodVsEvil goodVsEvil = new GoodVsEvil();
 //        System.out.println(goodVsEvil.battle("1 1 1 1 1 1", "1 1 1 1 1 1 1"));
 //        System.out.println(goodVsEvil.battle("0 0 0 0 0 10", "0 1 1 1 1 0 0"));
 //        System.out.println(goodVsEvil.battle("1 0 0 0 0 0", "1 0 0 0 0 0 0"));
 //        System.out.println(goodVsEvil.battle("379 875 9329 3755 9578 1053", "5839 3227 8980 5551 1855 4488 1142"));
-        System.out.println(goodVsEvil.battle("8257 3064 3334 4644 5240 465", "1276 3522 238 1 1988 8857 1323"));
+//        System.out.println(goodVsEvil.battle("8257 3064 3334 4644 5240 465", "1276 3522 238 1 1988 8857 1323"));
+
+        Solution solution = new Solution();
+
+        int [] nums = {0,1,0,3,12};
+        int [] nums2 = {0};
+        int [] nums3 = {0,0,1,2,0,4,5,234,563,234342,0,2,22,3};
+
+        solution.moveZeroes(nums);
+        solution.moveZeroes(nums2);
+        solution.moveZeroes(nums3);
     }
 }
