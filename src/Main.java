@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 //7 kyu
 public class Main {
@@ -46,14 +47,35 @@ public class Main {
 //        System.out.println(goodVsEvil.battle("379 875 9329 3755 9578 1053", "5839 3227 8980 5551 1855 4488 1142"));
 //        System.out.println(goodVsEvil.battle("8257 3064 3334 4644 5240 465", "1276 3522 238 1 1988 8857 1323"));
 
-        Solution solution = new Solution();
+//        Solution solution = new Solution();
+//
+//        int [] nums = {0,1,0,3,12};
+//        int [] nums2 = {0};
+//        int [] nums3 = {0,0,1,2,0,4,5,234,563,234342,0,2,22,3};
+//
+//        solution.moveZeroes(nums);
+//        solution.moveZeroes(nums2);
+//        solution.moveZeroes(nums3);
+//        FirstRepeatingNumber firstRepeatingNumber = new FirstRepeatingNumber();
+//
+//        int [] nums = {2,5,1,2,3,5,1,2,4};
+//        int [] nums1 = {2,1,1,2,3,5,1,2,4};
+//        int [] nums2 = {1,2,3,4,5,6};
+//        int [] nums3 = {1,2,3,2,5,3};
+//
+//
+//        System.out.println(firstRepeatingNumber.FirstRepeatingNumber(nums));
+//        System.out.println("=================================================");
+//        System.out.println(firstRepeatingNumber.FirstRepeatingNumber(nums1));
+//        System.out.println(firstRepeatingNumber.FirstRepeatingNumber(nums2));
+//        System.out.println(firstRepeatingNumber.FirstRepeatingNumber(nums3));
 
-        int [] nums = {0,1,0,3,12};
-        int [] nums2 = {0};
-        int [] nums3 = {0,0,1,2,0,4,5,234,563,234342,0,2,22,3};
+        TwoSum twoSum = new TwoSum();
 
-        solution.moveZeroes(nums);
-        solution.moveZeroes(nums2);
-        solution.moveZeroes(nums3);
+        int [] nums = {1, 2, 4};
+        int [] nums1 = {1, 3, 4,5,2};
+
+        System.out.println(Arrays.toString(twoSum.twoSum(nums, 3)));
+        System.out.println(Arrays.toString(twoSum.twoSum(nums, 6)));
     }
 }
