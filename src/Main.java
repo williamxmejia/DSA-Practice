@@ -58,10 +58,10 @@ public class Main {
 //        solution.moveZeroes(nums3);
 //        FirstRepeatingNumber firstRepeatingNumber = new FirstRepeatingNumber();
 //
-//        int [] nums = {2,5,1,2,3,5,1,2,4};
-//        int [] nums1 = {2,1,1,2,3,5,1,2,4};
-//        int [] nums2 = {1,2,3,4,5,6};
-//        int [] nums3 = {1,2,3,2,5,3};
+        int [] nums = {2,5,1,2,3,5,1,2,4};
+        int [] nums1 = {2,1,1,2,3,5,1,2,4};
+        int [] nums2 = {1,2,3,4,5,6};
+        int [] nums3 = {1,2,3,2,5,3};
 //
 //
 //        System.out.println(firstRepeatingNumber.FirstRepeatingNumber(nums));
@@ -70,12 +70,19 @@ public class Main {
 //        System.out.println(firstRepeatingNumber.FirstRepeatingNumber(nums2));
 //        System.out.println(firstRepeatingNumber.FirstRepeatingNumber(nums3));
 
-        TwoSum twoSum = new TwoSum();
+//        TwoSum twoSum = new TwoSum();
+//
+//        int [] nums = {1, 2, 4};
+//        int [] nums1 = {1, 3, 4,5,2};
+//
+//        System.out.println(Arrays.toString(twoSum.twoSum(nums, 3)));
+//        System.out.println(Arrays.toString(twoSum.twoSum(nums, 6)));
 
-        int [] nums = {1, 2, 4};
-        int [] nums1 = {1, 3, 4,5,2};
+        ContainesDuplicates containesDuplicates = new ContainesDuplicates();
 
-        System.out.println(Arrays.toString(twoSum.twoSum(nums, 3)));
-        System.out.println(Arrays.toString(twoSum.twoSum(nums, 6)));
+        System.out.println(containesDuplicates.containsDuplicate(nums));
+        System.out.println(containesDuplicates.containsDuplicate(nums1));
+        System.out.println(containesDuplicates.containsDuplicate(nums2));
+        System.out.println(containesDuplicates.containsDuplicate(nums3));
     }
 }
