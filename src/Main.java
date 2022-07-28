@@ -85,11 +85,24 @@ public class Main {
 //        System.out.println(containesDuplicates.containsDuplicate(nums2));
 //        System.out.println(containesDuplicates.containsDuplicate(nums3));
 
-        LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
+//        LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
+//
+//        System.out.println(lengthOfLastWord.lengthOfLastWord("Hello World"));
+//        System.out.println(lengthOfLastWord.lengthOfLastWord("   fly me   to   the moon  "));
+//        System.out.println(lengthOfLastWord.lengthOfLastWord("luffy is still joyboy"));
 
-        System.out.println(lengthOfLastWord.lengthOfLastWord("Hello World"));
-        System.out.println(lengthOfLastWord.lengthOfLastWord("   fly me   to   the moon  "));
-        System.out.println(lengthOfLastWord.lengthOfLastWord("luffy is still joyboy"));
+//        System.out.println("Hello\b ");
+//        System.out.println(("abc#d##c").charAt(1));
+
+//        BackspacesInString backspacesInString = new BackspacesInString();
+//
+//        System.out.println(backspacesInString.cleanString("abc#d##c"));
+//        System.out.println(backspacesInString.cleanString("abc##d######"));
+
+        ConsonantValue consonantValue = new ConsonantValue();
+
+        System.out.println(consonantValue.solve("helloworld"));
+        System.out.println(consonantValue.solve("strength"));
 
     }
 }
