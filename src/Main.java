@@ -58,10 +58,10 @@ public class Main {
 //        solution.moveZeroes(nums3);
 //        FirstRepeatingNumber firstRepeatingNumber = new FirstRepeatingNumber();
 //
-        int [] nums = {2,5,1,2,3,5,1,2,4};
-        int [] nums1 = {2,1,1,2,3,5,1,2,4};
-        int [] nums2 = {1,2,3,4,5,6};
-        int [] nums3 = {1,2,3,2,5,3};
+//        int [] nums = {2,5,1,2,3,5,1,2,4};
+//        int [] nums1 = {2,1,1,2,3,5,1,2,4};
+//        int [] nums2 = {1,2,3,4,5,6};
+//        int [] nums3 = {1,2,3,2,5,3};
 //
 //
 //        System.out.println(firstRepeatingNumber.FirstRepeatingNumber(nums));
@@ -99,10 +99,30 @@ public class Main {
 //        System.out.println(backspacesInString.cleanString("abc#d##c"));
 //        System.out.println(backspacesInString.cleanString("abc##d######"));
 
-        ConsonantValue consonantValue = new ConsonantValue();
+//        ConsonantValue consonantValue = new ConsonantValue();
+//
+//        System.out.println(consonantValue.solve("helloworld"));
+//        System.out.println(consonantValue.solve("strength"));
 
-        System.out.println(consonantValue.solve("helloworld"));
-        System.out.println(consonantValue.solve("strength"));
+
+//        ValidAnagram validAnagram = new ValidAnagram();
+//
+//        String s1 = "anagram";
+//        String t1 = "nagaram";
+//
+//        String s2 = "rat";
+//        String t2 = "car";
+//
+//        System.out.println(validAnagram.isAnagram(s1, t1));
+//        System.out.println(validAnagram.isAnagram(s2, t2));
+
+        char [] list = {'h','e','l','l','o'};
+        char [] list1 = {'w','i','l','l','i', 'a', 'm'};
+
+        ReversedString reversedString = new ReversedString();
+
+        reversedString.reverseString(list);
+        reversedString.reverseString(list1);
 
     }
 }
