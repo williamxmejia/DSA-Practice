@@ -116,13 +116,37 @@ public class Main {
 //        System.out.println(validAnagram.isAnagram(s1, t1));
 //        System.out.println(validAnagram.isAnagram(s2, t2));
 
-        char [] list = {'h','e','l','l','o'};
-        char [] list1 = {'w','i','l','l','i', 'a', 'm'};
+//        char [] list = {'h','e','l','l','o'};
+//        char [] list1 = {'w','i','l','l','i', 'a', 'm'};
+//
+//        ReversedString reversedString = new ReversedString();
+//
+//        reversedString.reverseString(list);
+//        reversedString.reverseString(list1);
 
-        ReversedString reversedString = new ReversedString();
 
-        reversedString.reverseString(list);
-        reversedString.reverseString(list1);
+
+
+//        RunningSum runningSum = new RunningSum();
+
+//        int [] nums = {1, 2, 4};
+//        int [] nums1 = {1, 3, 4,5,2};
+
+//        System.out.println(runningSum.runningSum(nums));
+//        System.out.println(runningSum.runningSum(nums1));
+
+
+        PivotIndex pivotIndex = new PivotIndex();
+
+        int [] nums = {1,7,3,6,5,6};
+        int [] num1 = {1,2,3};
+        int [] num2 = {2,1,-1};
+
+        System.out.println(pivotIndex.pivotIndex(nums));
+        System.out.println(pivotIndex.pivotIndex(num1));
+        System.out.println(pivotIndex.pivotIndex(num2));
+
+
 
     }
 }
