@@ -1,0 +1,15 @@
+
+// This method goes in the Linked List class   
+   
+   
+   public void prepend(int value) {
+        Node newNode = new Node(value);
+        if (length == 0) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            newNode.next = head;
+            head = newNode;
+        }
+        length++;
+    }

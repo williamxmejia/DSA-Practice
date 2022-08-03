@@ -24,3 +24,6 @@
     <li>Drop-non-dominants --> O(n^2 + n) = O(n^2)</li>
     <li>Different terms for inputs --> O(a+b) & O(a * b)</li>
 </ul>
+
+<h2>Linked List vs Array List</h2>
+<img src="ll-big-o.png">
