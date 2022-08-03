@@ -1,4 +1,4 @@
-// 7kyu Maximum Length Difference
+package leetcode;// 7kyu Maximum Length Difference
 
 class MaxDiffLength {
 

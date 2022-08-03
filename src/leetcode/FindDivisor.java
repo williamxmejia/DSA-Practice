@@ -1,3 +1,5 @@
+package leetcode;
+
 public class FindDivisor {
 
     public long numberOfDivisors(int n) {

@@ -1,3 +1,5 @@
+package leetcode;
+
 public class PivotIndex {
     public int pivotIndex(int[] nums) {
         int total = 0;

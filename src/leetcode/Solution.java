@@ -1,3 +1,5 @@
+package leetcode;
+
 class Solution {
     public void moveZeroes(int[] nums) {
         if(nums.length == 1)return;

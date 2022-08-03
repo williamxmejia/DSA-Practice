@@ -1,3 +1,4 @@
+package leetcode;
 
 public class RunningSum {
     public int[] runningSum(int[] nums) {

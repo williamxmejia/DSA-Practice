@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package leetcode;
 
 //7 kyu
 public class Main {
@@ -136,17 +136,25 @@ public class Main {
 //        System.out.println(runningSum.runningSum(nums1));
 
 
-        PivotIndex pivotIndex = new PivotIndex();
+//        PivotIndex pivotIndex = new PivotIndex();
+//
+//        int [] nums = {1,7,3,6,5,6};
+//        int [] num1 = {1,2,3};
+//        int [] num2 = {2,1,-1};
+//
+//        System.out.println(pivotIndex.pivotIndex(nums));
+//        System.out.println(pivotIndex.pivotIndex(num1));
+//        System.out.println(pivotIndex.pivotIndex(num2));
 
-        int [] nums = {1,7,3,6,5,6};
-        int [] num1 = {1,2,3};
-        int [] num2 = {2,1,-1};
+        ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3, null)));
 
-        System.out.println(pivotIndex.pivotIndex(nums));
-        System.out.println(pivotIndex.pivotIndex(num1));
-        System.out.println(pivotIndex.pivotIndex(num2));
+        ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4, null)));
 
+//        System.out.println(l1.next.val);
 
+        AddTwoNumbersII addTwoNumbers = new AddTwoNumbersII();
+
+        System.out.println(addTwoNumbers.addTwoNumbers(l1, l2).val);
 
     }
 }

@@ -1,4 +1,4 @@
-//Kata 6kyu
+package leetcode;//Kata 6kyu
 
 public class Kata {
     public static int findEvenIndex(int[] arr) {
