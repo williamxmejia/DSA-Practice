@@ -146,15 +146,20 @@ public class Main {
 //        System.out.println(pivotIndex.pivotIndex(num1));
 //        System.out.println(pivotIndex.pivotIndex(num2));
 
-        ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3, null)));
+//        ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3, null)));
+//
+//        ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4, null)));
+//
+////        System.out.println(l1.next.val);
+//
+//        AddTwoNumbersII addTwoNumbers = new AddTwoNumbersII();
+//
+//        System.out.println(addTwoNumbers.addTwoNumbers(l1, l2).val);
 
-        ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4, null)));
+        PascalsTriangle pascalsTriangle = new PascalsTriangle();
 
-//        System.out.println(l1.next.val);
+        System.out.println(pascalsTriangle.pascalsTriangle(5).toString());
 
-        AddTwoNumbersII addTwoNumbers = new AddTwoNumbersII();
-
-        System.out.println(addTwoNumbers.addTwoNumbers(l1, l2).val);
 
     }
 }
