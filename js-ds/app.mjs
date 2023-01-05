@@ -53,6 +53,28 @@ function compareKeyStrokes(s, t) {
     return arrS.join("") === arrT.join("");
 }
 
+// This question is asked by Facebook. Given a string s containing only lowercase letters, continuously remove adjacent characters that are the same and return the result.
+//
+//     Ex: Given the following strings...
+//
+// s = "abccba", return ""
+// s = "foobar", return "fbar"
+// s = "abccbefggfe", return "a"
+
+const removeAdjacent = (s) => {
+    let stack = [];
+
+    for (let char of s) {
+        if(stack[stack.length - 1] === char) {
+            stack.pop();
+        } else {
+            stack.push(char);
+        }
+    }
+
+    return stack.join("");
+}
+
 
 app.listen(3000, () => {
     // console.log(replaceSpace("Mr John Smith    "));
@@ -60,9 +82,12 @@ app.listen(3000, () => {
     // console.log(permutationIsPalindrome("Tact Coa", "atco cta"));
     // console.log(permutationIsPalindrome("Tact Coa", "taco cca"));
     // console.log(oneAway("pale", "ple"));
-    console.log(compareKeyStrokes("ABC#", "CD##AB"));
-    console.log(compareKeyStrokes("como#pur#ter", "computer"));
-    console.log(compareKeyStrokes("cof#dim#ng", "code"));
+    // console.log(compareKeyStrokes("ABC#", "CD##AB"));
+    // console.log(compareKeyStrokes("como#pur#ter", "computer"));
+    // console.log(compareKeyStrokes("cof#dim#ng", "code"));
+    console.log(removeAdjacent("abccba"))
+    console.log(removeAdjacent("foobar"))
+    console.log(removeAdjacent("abccbefggfe"))
 
 
 })
