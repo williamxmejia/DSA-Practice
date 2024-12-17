@@ -1,6 +1,7 @@
 class ListNode:
   def __init__(self, val):
     self.val = val
+    self.prev = None
     self.next = None
 
 class LinkedList:
@@ -12,14 +13,16 @@ class LinkedList:
     if not self.head:
       self.head = new_node
       return
-
+    
     last_node = self.head
+
+
     while last_node.next:
       last_node = last_node.next
     last_node.next = new_node
 
   def print_list(self):
-    current_node =  self.head
+    current_node = self.head
 
     while current_node:
       print(current_node.val, end=" -> ")
@@ -30,5 +33,6 @@ l1 = LinkedList()
 l1.append(1)
 l1.append(2)
 l1.append(3)
+l1.append(4)
 l1.print_list()
 
