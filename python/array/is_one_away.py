@@ -28,4 +28,5 @@ def is_one_away(str1, str2):
 
 			return count == 1
 
-print(is_one_away("pale", "bake"))
+
+print(is_one_away("paless", "pales"))
