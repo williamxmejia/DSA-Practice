@@ -20,17 +20,15 @@ class LinkedList:
 			last_node.next = new_node
 	
 	def remove_middle(self, c):
-		ll = LinkedList()
-		dummy = ll
-
+		prev = None
 		node = self.head
 
 		while node:
-			if node.data != c:
-				ll.append(node.data)
-			node = node.next
-		return dummy
+			if node.data == c:
+				prev.next = node.next
 
+			prev = node
+			node = node.next
 
 	def print_list(self):
 		node = self.head
@@ -48,6 +46,6 @@ if __name__ == "__main__":
 	ll.append("f")
 
 	ll.print_list()
-	ll = ll.remove_middle("c")
+	ll.remove_middle("c")
 	print('')
 	ll.print_list()
