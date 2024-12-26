@@ -1,9 +1,9 @@
-package leetcode;
+package PACKAGE_NAME.leetcode;
 
 import java.util.Stack;
 
 public class AddTwoNumbersII {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public leetcode.ListNode addTwoNumbers(leetcode.ListNode l1, leetcode.ListNode l2) {
         Stack<Integer> s1 = new Stack<>();
 
         while (l1 != null){
@@ -23,7 +23,7 @@ public class AddTwoNumbersII {
         System.out.println(s2);
 
         int carry = 0;
-        ListNode newHead = null;
+        leetcode.ListNode newHead = null;
 
         while(!s1.isEmpty() || !s2.isEmpty() || carry != 0){
             int n1 = s1.isEmpty() ? 0 : s1.pop();
@@ -31,7 +31,7 @@ public class AddTwoNumbersII {
 
             int tmp = n1 + n2 + carry;
 
-            ListNode newNode = new ListNode(tmp % 10);
+            leetcode.ListNode newNode = new leetcode.ListNode(tmp % 10);
 
             newNode.next = newHead;
             newHead = newNode;
